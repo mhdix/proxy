@@ -1,14 +1,14 @@
-p{
+.proxy-box div{
     word-break: break-all;
     border-bottom: 1px solid rgb(150, 150, 150);
     padding: 20px 0;
 }
-p:last-child{
+.proxy-box div:last-child{
     border: none;
 }
 .proxy{
-    /* display: flex; */
-    text-align: center;
+    /*display: flex;
+    */text-align: center;
     margin: 0 auto;
     width: 40%;
     color: rgb(255, 255, 255);
@@ -18,4 +18,27 @@ p:last-child{
     width: 100%;
     margin: 20px 0;
     padding: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+button{
+    border: 1px solid rgba(131, 131, 131, 0.533);
+    background-color: rgba(211, 244, 205, 0.468);
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 8px;
+}
+.green{
+    color: rgb(0, 209, 0);
+}
+.red{
+    color: red;
 }
